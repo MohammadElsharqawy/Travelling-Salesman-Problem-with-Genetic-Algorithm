@@ -1,4 +1,3 @@
-
 import random, math
 
 
@@ -161,18 +160,3 @@ if __name__ == '__main__':
         for path in population:
             minimum = min(minimum, total_distance(distance, path))
         print(minimum if minimum != float("inf") else "NOT Feasible")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
